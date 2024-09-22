@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
+
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Sidebar{
+  height: 100%;
+  width: 250px;
+  background-color:s rgba(236, 230, 240, 1);
+}
+
+.SidebarList{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(236, 230, 240, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.SidebarList .row{
+  /* cursor: pointer; */
+  width: 80%;
+  height: 2.4rem;
+  /* border: 1px solid black; */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  color: rgba(35, 35, 35, 1);
+  /* border-radius: 40px; */
+  align-items: center;
+  justify-content: center;
+  /* padding-left: 20px; */
+  /* gap: 20px; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.SidebarList .row a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.SidebarList .row:hover{
+  cursor: pointer;
+  background: linear-gradient(90deg, #15CDCB 0%, #9EFE4A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 40px;
+  path.manual{
+    /* stroke: #FFFFFF; */
+    background: linear-gradient(90deg, #15CDCB 0%, #9EFE4A 100%);
+
+  }
+  /* path.manual2{ */
+    /* fill: #FFFFFF; */
+  /* } */
+}
+
+
+
+.SidebarList #active{
+  background: linear-gradient(90deg, #15CDCB 0%, #9EFE4A 100%);
+  color: white; /* Solid white text for active buttons */
+  border-radius: 40px;
+  path.manual{
+    stroke: #FFFFFF;
+    /* fill: #FFFFFF; */
+  }
+  path.manual2{
+    fill: #FFFFFF;
+  }
+}
+
+.SidebarList #active:hover {
+  background: linear-gradient(90deg, #15CDCB 0%, #9EFE4A 100%);
+  color: white; /* Keep text color white when active and hovered */
+  -webkit-text-fill-color:unset;
+}
+
+.row #icon{
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.row #title{
+  flex: 70%;
+}
+
+
+.row_title{
+  /* align-items: flex-start; */
+  list-style: none;
+  font-weight: 600;
+  padding-left: 12px;
+  font-size: 1.2rem;
+}
+
+.title_container{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* ///////////////// */

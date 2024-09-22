@@ -1,0 +1,37 @@
+.header {
+    position: fixed;
+    top: 0;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: left 0.3s, width 0.3s;
+  }
+  
+  .header.open {
+    left: 250px;
+    width: calc(100% - 250px);
+  }
+  
+  .header.closed {
+    left: 60px;
+    width: calc(100% - 60px);
+  }
+  
+  .logo {
+    font-weight: bold;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    width: 200px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
