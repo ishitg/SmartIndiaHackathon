@@ -1,0 +1,9 @@
+.card{
+    display: flex;          /*  Aligns the components in a row */
+    flex-direction: column;
+    justify-content:space-around; /* Adds space between components (optional) */
+    align-items: center;
+    background-color: #ece6f0;
+    border-radius: 16px;
+    padding: 1.5rem;
+}

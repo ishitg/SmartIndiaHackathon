@@ -1,0 +1,56 @@
+.calendar{
+    display:flex;
+    flex-direction: vertical;
+    align-items:center;
+    justify-content:space-evenly;
+
+    background-color: white;
+    border:none;
+    /* border:black 2px solid; */
+    width:100%;
+    height:8rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    /* background: linear-gradient(to right, #00e9ff, #10ff54); */
+}
+
+.calendar-img{
+    width:6rem;
+    height:75px;
+    padding: 14px;
+    /* border: 2px white solid; */
+    border-radius:18px ;
+    object-fit: cover;
+}
+
+.clg{
+    color:#757575;
+}
+.connect{
+    
+    /* border-radius: 4px; */
+    border: none; /* Removes any borders */
+    /* font-size: 13px; */
+    /* font-weight: bold; */
+    /* padding: 0.2rem 0.3rem; */
+    /* transition: box-shadow 0.3s ease;  */
+    /* margin-left: 0.8rem; */
+    /* margin-right: 0.8rem; */
+    /* width:7.5rem; */
+}
+
+
+
+.view {
+    /* background: linear-gradient(to right, #16cecb, #9dfe4c); */
+    /* border-radius: 4px; */
+    border: none; /* Removes any borders */
+    /* font-size: 13px; */
+    /* font-weight: bold; */
+    /* padding: 0.3rem 0.3rem; */
+    /* transition: box-shadow 0.3s ease; */
+    /* margin-left: 0.6rem; */
+    /* margin-right: 0.2rem; */
+    /* width:6.5rem; */
+}
+

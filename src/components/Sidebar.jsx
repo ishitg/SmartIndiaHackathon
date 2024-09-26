@@ -3,10 +3,17 @@ import "./Sidebar.css";
 import { SidebarData } from "./SidebarData";
 // import { Link } from "react-router-dom";
 
+
+
+
 function Sidebar() {
   return (
     <div className="Sidebar">
+
       <ul className="SidebarList">
+      <div className="logo_container">
+          <img src="./logo_alma_matter.png" alt="" height={52} width={168}/>
+      </div>
         <div className="title_container"> <li className="row_title">Menu</li> </div>
         {SidebarData.map((val, key) => {
           return (
@@ -41,6 +48,8 @@ function Sidebar() {
             </li>
           );
         })}
+
+        
       </ul>
     </div>
   );

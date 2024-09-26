@@ -1,0 +1,38 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    /* gap: 10px; */
+    margin-top: 20px;
+
+    grid-template-areas: 
+    "welcome-card"
+    "my-events-card"
+    "main";
+}
+
+.welcome-card{
+    grid-area: welcome-card;
+}
+
+.my-events-card{
+    grid-area: my-events-card;
+}
+
+.main{
+    grid-area: main;
+}
+
+.welcome-card,.my-events-card,.main{
+
+    padding: 10px; /* Adjust as needed */
+    margin: 0 auto; /* Center align if needed */
+
+}

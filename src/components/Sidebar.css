@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
 
 
-.App {
-  width: 100vw;
-  height: 100vh;
-}
+
 
 body{
   margin: 0;
@@ -66,13 +63,16 @@ body{
 
 .SidebarList .row:hover{
   cursor: pointer;
-  background: linear-gradient(90deg, #15CDCB 0%, #9EFE4A 100%);
+  background: linear-gradient(90deg, #28BE98 0%, #EC6E58 100%);
+  scale: 1.1;
+  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border-radius: 40px;
   path.manual{
     /* stroke: #FFFFFF; */
-    background: linear-gradient(90deg, #15CDCB 0%, #9EFE4A 100%);
+    background: linear-gradient(90deg, #28BE98 0%, #EC6E58 100%);
+    ;
 
   }
   /* path.manual2{ */
@@ -83,7 +83,8 @@ body{
 
 
 .SidebarList #active{
-  background: linear-gradient(90deg, #15CDCB 0%, #9EFE4A 100%);
+  background: linear-gradient(90deg, #28BE98 0%, #EC6E58 100%);
+
   color: white; /* Solid white text for active buttons */
   border-radius: 40px;
   path.manual{
@@ -96,7 +97,8 @@ body{
 }
 
 .SidebarList #active:hover {
-  background: linear-gradient(90deg, #15CDCB 0%, #9EFE4A 100%);
+  background: linear-gradient(90deg, #28BE98 0%, #EC6E58 100%);
+
   color: white; /* Keep text color white when active and hovered */
   -webkit-text-fill-color:unset;
 }
@@ -128,3 +130,7 @@ body{
 }
 
 /* ///////////////// */
+
+.logo_container{
+  margin-bottom: 30px;
+}

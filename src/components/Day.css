@@ -1,0 +1,76 @@
+/* Day.css */
+
+.daybox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(135deg, #3acfe9 0%, #4ec9a9 100%); */
+    color: #080808;
+    /* padding: 1.5rem; */
+    border-radius: 1rem;
+    /* width: 100px; */
+    /* min-width: 80px; */
+    /* max-width: 120px; */
+    text-align: center;
+    background-color: #fff;
+    /* font-family: 'Poppins', 'Arial', sans-serif; */
+    width: 72px;
+    height: 82px;
+    padding: 23.5px;
+  }
+  
+  .daybox:hover{
+    background: #28BE98;
+    scale: 1.1;
+  }
+
+
+  .day {
+    /* font-size: 1.2rem;
+    font-weight: 600; */
+    width: 25px;
+height: 14px;
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+  
+  .date {
+    /* font-size: 2.4rem;
+    font-weight: 700; */
+    width: 11px;
+height: 14px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 5px;
+  }
+
+  /* .day .date{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+font-size: 10px;
+font-weight: 600;
+line-height: 14px;
+text-align: left;
+color: #232323;
+font-weight: bold;
+  } */
+  
+  /* @media (max-width: 768px) {
+    .daybox {
+      padding: 1rem;
+      width: 80px;
+    }
+  
+    .day {
+      font-size: 1rem;
+    }
+  
+    .date {
+      font-size: 2rem;
+    }
+  } */
+  

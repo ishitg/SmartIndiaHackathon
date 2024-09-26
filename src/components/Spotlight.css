@@ -1,0 +1,228 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* position: relative;
+    width: 100%;
+    max-width: 25rem;
+    padding: 1.25rem;
+    background-color: #ece6f0;
+    border-radius: 1rem;
+    box-shadow: 0px 0.25rem 0.625rem rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif; */
+    grid-row-start: 2;
+    grid-row-end: 3;
+    /* height: fit-content; */
+
+
+    background: #ECE6F0;
+
+  /* max-width: 33.8vw; */
+  border-radius: 1.3vw;
+  padding: 1.3vw 3vw;
+  color: #000;
+  text-align: left;
+  /* margin: auto; */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+  /* gap: 10px; */
+  justify-content: space-evenly;
+  margin: 0;
+    margin-top: -50px
+}
+
+.spotlight {
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* margin-bottom: 1.25rem; */
+font-family: Poppins;
+font-size: 1.5rem;
+font-weight: 600;
+line-height: 22.4px;
+/* text-align: left; */
+margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 1.25rem */
+    gap: 20px;
+    width: -webkit-fill-available;
+}
+
+.image img {
+    width: 7rem;  
+    height: 7rem;
+    /* border-radius: 50%; */
+    /* margin-right: 1rem; */
+}
+
+.otherdetail {
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+    /* height: -webkit-fill-available; */
+    height: 7rem;
+    justify-content: space-between;
+}
+
+
+.tag {
+    font-size: 0.85rem;
+    /* color: #7d7d7d; */
+    /* margin-bottom: 0.3rem; */
+    font-family: Poppins;
+font-size: 17px;
+font-weight: bold;
+line-height: 14px;
+text-align: left;
+
+}
+
+.name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    /* margin-bottom: 0.5rem; */
+    font-family: Poppins;
+font-size: 19px;
+font-weight: 600;
+line-height: 22.4px;
+text-align: left;
+
+}
+
+.institute, .category {
+    font-size: 0.85rem;
+    color: #757575;
+    /* margin-bottom: 0.25rem; */
+    font-family: Poppins;
+font-size: 15px;
+font-weight: 400;
+line-height: 14px;
+text-align: left;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    /* align-items: center; */
+    
+
+}
+
+.view, .connect,.friendAdd{
+    /* padding: 0.6rem 1rem; */
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    /* font-size: 0.9rem; */
+    /* flex: 1; */
+    /* margin-right: 0.5rem;  */
+    /* transition: transform 0.3s ease, color 0.3s ease;  */
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 14px;
+/* text-align: left; */
+margin: 0;
+padding: 3px;
+background: #FFFFFF;
+color: #232323;
+}
+
+.view {
+    /* background: linear-gradient(to right, #00d4ff, #00ff87); */
+    /* color: white; */
+    /* width:10rem; */
+    flex: 0.5;
+}
+
+.connect{
+    /* background-color: #f5f5f5; */
+    color: black;
+    /* border: 1px solid #ccc; */
+    /* width:10rem; */
+    flex: 0.5;
+
+}
+
+/* .buttons .image img {
+    width: 1.5rem;
+    height: 1.5rem;
+} */
+
+/* .connect:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}  */
+
+
+.view:hover, .connect:hover,.friendAdd:hover{
+    background: #28BE98;
+    scale: 1.1;
+}
+
+@media (max-width: 768px) {
+    .information {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .view button, .connect button {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .buttons .image {
+        display: none; 
+    }
+}
+
+.user {
+    font-size: 20px;             
+    background-color: white;    
+    border-radius: 50%;          
+    padding: 8px;               
+
+}
+
+.user:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.arrow {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);  
+    font-size: 24px;
+    color: black;
+    transition: transform 0.3s ease, color 0.3s ease;  /* Removed box-shadow from transition */
+}
+
+.arrow:hover {
+    transform: translateY(-50%) scale(1.2); /* Scales the arrow slightly for a zoom effect */
+    cursor: pointer;
+    color: #007BFF; /* Change the color on hover to a more visible shade */
+}
